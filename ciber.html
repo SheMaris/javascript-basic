@@ -1,0 +1,50 @@
+<script>
+//Exercici 1
+console.log('Hola mundo');
+//Exercici 2
+alert('Me llamo Sheila!');
+//Exercici 3
+var name = 'Sheila';
+var surname = 'Mariscal';
+console.log(name+' '+surname);
+//Exercici 4
+var num_1 = 1;
+var num_2 = 2;
+console.log(num_1 + num_2);
+//Exercici 5
+var nota_examen = 4.6;
+if (nota_examen >= 5){
+  console.log('Felicidades! Has aprovado con un '+nota_examen);
+} else {
+  console.log('Ooohh has suspendido el examen con un '+nota_examen);
+}
+//Exercici 6
+var frase = 'Tinc un cotxe de color blau';
+console.log(frase.replace('blau', 'verd'));
+console.log(frase.replace(/o/g, 'u'));
+//Exercici 7
+var llistat_objectes = ['taula', 'cadira', 'ordinador', 'libreta'];
+for (i = 0; i < llistat_objectes.length; i++) {
+  console.log('L\'objecte '+llistat_objectes[i]+' està a la posició '+i+'.');
+}
+//Exercici 8
+function calculadora(operador, valor1, valor2){
+switch (operador) {
+  case 'suma':
+    console.log(valor1+valor2);
+    break;
+  case 'resta':
+    console.log(valor1-valor2);
+    break;
+  case 'multiplicacio':
+    console.log(valor1*valor2);
+    break;
+  case 'divisio':
+    console.log(valor1/valor2);
+    break;
+}}
+var resultat = calculadora('resta',40,20);
+var resultat = calculadora('suma',40,20);
+var resultat = calculadora('multiplicacio',40,20);
+var resultat = calculadora('divisio',40,20);
+</script>
